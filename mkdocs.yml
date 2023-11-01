@@ -1,0 +1,20 @@
+site_name: Diário ANO de AUTOR
+site_author: AUTOR
+
+theme:
+  name: readthedocs
+  language: pt
+
+nav:
+  - index.md
+  - objetivos.md
+  - material.md
+  - Dicas: dicas/index.md
+  - Dicas:
+    - dicas/barra.md
+    - dicas/ponto.md
+    - dicas/ponto-ponto.md
+    - dicas/til.md
+    - dicas/hifen.md
+  - instrucoes.md
+  - roteiro.md

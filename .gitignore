@@ -1,0 +1,5 @@
+# MkDocs
+site/
+
+# Sphinx
+docs/_build

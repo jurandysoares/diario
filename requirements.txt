@@ -1,0 +1,5 @@
+mkdocs
+mkdocs-material
+sphinx
+sphinx-rtd-theme
+ç
