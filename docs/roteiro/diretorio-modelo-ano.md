@@ -43,5 +43,15 @@
 5. Ainda dentro do diretório `~/diario/docs/ano`, execute o seguinte comando:
 
     ```bash
-    
+    for mes in {01..12}; do
+       for dia in {01..31}; do
+           cp -r ../dia "${mes}/${dia}"
+       done
+    done
+
+    # Removendo 31 de Abril, Junho, Setembro e Novembro
+    rm -rf {04,06,09,11}/31
+
+    # Removendo 29, 30 e 31 de Fevereiro
+    rm -rf 02/{29,30,31}
     ```
